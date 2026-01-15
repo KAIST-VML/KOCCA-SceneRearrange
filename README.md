@@ -41,7 +41,7 @@ To set up the prepared data and pre-trained models, run these scripts in order:
 
 1. Install extra Python packages and Chamfer Distance:
 
-   ```
+   ```bash
    bash setup_a.sh
    ```
 
@@ -49,7 +49,7 @@ To set up the prepared data and pre-trained models, run these scripts in order:
 
 2. Download all required zip files (preprocessed datasets and pretrained models). **If download fails, follow the provided message to manually download and place the zip file in the project root**:
 
-   ```
+   ```bash
    bash setup_b.sh
    ```
 
@@ -57,7 +57,7 @@ To set up the prepared data and pre-trained models, run these scripts in order:
 
 3. Unzip and organize the files into the proper directories. **Before running this step, ensure that the following zip files** (`3d_front_processed.zip`, `3D-FUTURE-model-processed.zip`, `objautoencoder_pretrained.zip`, `pretrained_diffusion.zip`) are present in the root directory.
 
-   ```
+   ```bash
    bash setup_c.sh
    ```
 
