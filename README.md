@@ -74,7 +74,7 @@ To generate rearranged scenes, run the command below:
 bash run/generate_rearrange.sh
 ```
 
-Outputs are saved to `./cluster/balrog/jtang/rearrange_with_train_val_data/{ROOM_TYPE}_rearrange/gen_top2down_notexture_nofloor/`.
+Outputs are saved to `./scripts/cluster/balrog/jtang/rearrange_with_train_val_data/{ROOM_TYPE}_rearrange/gen_top2down_notexture_nofloor/`.
 
 <br>
 
