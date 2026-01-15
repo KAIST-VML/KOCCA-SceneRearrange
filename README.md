@@ -68,11 +68,15 @@ To set up the prepared data and pre-trained models, run these scripts in order:
 
 The `generate_rearrange.sh` script creates rearranged scenes using pretrained diffusion models. It works on both bedrooms and living rooms from the training and validation parts of the 3D-FRONT dataset.
 
-To generate rearranged scenes, run:
+To generate rearranged scenes, run the command below:
 
 ```bash
 bash run/generate_rearrange.sh
 ```
+
+Outputs are saved to `./cluster/balrog/jtang/rearrange_with_train_val_data/{ROOM_TYPE}_rearrange/gen_top2down_notexture_nofloor/`.
+
+<br>
 
 The script does the following:
 - Creates rearranged scenes for bedrooms using the pretrained model checkpoint `model_17000`
@@ -95,8 +99,7 @@ For each room type, the script generates:
 
 <br>
 
-Outputs are saved to `./cluster/balrog/jtang/rearrange_with_train_val_data/{ROOM_TYPE}_rearrange/gen_top2down_notexture_nofloor/`.
-
+To generate scenes using specific dataset splits such as test or validation, change the `--split` argument in the `generate_rearrange.sh` to the `'["test", "val"]'`. Currently, the default is `'["train", "val"]'`.
 
 
 <br>
