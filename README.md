@@ -9,7 +9,7 @@
 
 ## Installation
 
-### For Vessl
+### Vessl Environment Setup
 To set up the DiffuScene environment in Vessl, set the Custom Image to `docker.io/cjfl2343/diffuscene:0.0.7`. This image was made for this project and has all the required packages already installed. The Docker image comes from the [`Dockerfile.diffuscene`](Dockerfile.diffuscene) file in this repository.
 **Since this image uses CUDA 11.6, it is recommended to use a node with CUDA version 11.x or higher** (e.g., `eve-s05`, `character-s05`).
 
@@ -22,7 +22,7 @@ To set up the DiffuScene environment in Vessl, set the Custom Image to `docker.i
 
 <br>
 
-### Cloning Repository
+### Repository Setup
 
 To get started with DiffuScene, first clone this repository:
 This will create a folder named `KOCCA-SceneRearrange` with all necessary source code and scripts.
