@@ -39,3 +39,5 @@ unzip pretrained_diffusion.zip
 PRETRAINED_DIR="pretrained"
 mv pretrained_diffusion $PRETRAINED_DIR
 mv objautoencoder_pretrained $PRETRAINED_DIR
+
+rm -rf objautoencoder_pretrained
