@@ -4,6 +4,8 @@
 > This repository is based on the original code at https://github.com/tangjiapeng/DiffuScene and the paper https://arxiv.org/abs/2303.14207.
 >
 > The original README file has been renamed to [_README.md](_README.md).
+>
+> To check the full commit history, see https://github.com/PARKCHEOLHEE-lab/diffuscene/commits/master/.
 
 <br>
 
